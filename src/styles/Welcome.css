@@ -1,0 +1,48 @@
+#main{
+    height: 100vh;
+    /* position: relative; */
+    background: linear-gradient(116.43deg, rgba(100, 176, 246, 0.5) 1.66%, rgba(39, 129, 230, 0.5) 28.83%, rgba(152, 57, 231, 0.5) 60.68%, rgba(175, 50, 182, 0.5) 88.21%);
+    z-index: 1;
+    /* border-radius: 100px; */
+}
+
+#card-wrapper{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: rgba(0,0,0,.4);
+    backdrop-filter: blur(10px);
+}
+
+#pepe-body{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: .5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/images/PEPE_GAME_BODY.png);
+}
+
+#pepe-hand{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    bottom: .5px;
+    left: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/images/PEPE\ HAND.png);
+}
+
+#pepe-coin{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 180px;
+    bottom: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/images/Coin\ 3D.png);
+}
+
