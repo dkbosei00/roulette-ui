@@ -1,0 +1,84 @@
+#navbar{
+    flex-direction: row-reverse;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 12;
+    position: relative
+}
+
+#main-navbar{
+    position: absolute;
+    top: 5px;
+    height: 38px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    right: 13%;
+}
+
+
+img{
+    width: 50px;
+}
+
+#token{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #18ADFA;
+    border-radius: 6px;
+    width: 118.32px;
+    height: 38px;
+    order: 0;
+}
+
+#wallet{
+    position: absolute;
+    top: 5px;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #18ADFA;
+    border-radius: 6px;
+    width: 118.32px;
+    height: 38px;
+    background: inherit;
+}
+
+span{
+    position: relative;
+    left: 20%;
+    top: 20%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.items{
+    display: flex;
+    text-align: center;
+    height: 38px;
+    width: 50px;
+    position: absolute;
+    right: 60px;
+}
+
+img{
+    height: 30px;
+    width: auto;
+}
+
+#twitter{
+    position: absolute;
+    left: 40px;
+}
+
+#discord{
+    position: absolute;
+    left: 80px;
+}
+
+#whitepaper{
+    position: absolute;
+    left: 120px;
+}

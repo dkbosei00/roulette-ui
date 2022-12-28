@@ -6,43 +6,11 @@
     /* border-radius: 100px; */
 }
 
-#card-wrapper{
+#wrapper{
     min-height: 100vh;
     width: 100vw;
     position: relative;
     background-color: rgba(0,0,0,.4);
     backdrop-filter: blur(10px);
-}
-
-#pepe-body{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    bottom: .5px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../assets/images/PEPE_GAME_BODY.png);
-}
-
-#pepe-hand{
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    bottom: .5px;
-    left: 150px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../assets/images/PEPE\ HAND.png);
-}
-
-#pepe-coin{
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    left: 180px;
-    bottom: 45px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../assets/images/Coin\ 3D.png);
 }
 
