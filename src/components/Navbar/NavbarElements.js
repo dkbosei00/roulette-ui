@@ -2,12 +2,11 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavLink = styled(Link)`
-    color: #808080;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+    right: 0px;
+    bottom: 0px;
     height: 100%;
-    cursor: pointer;
+    width: 100%;
+    display:inline-block;
     &.active {
     color: #000000;
     }

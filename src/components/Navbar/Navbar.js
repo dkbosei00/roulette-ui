@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "./NavbarElements";
 import "./Navbar.css"
 
-function Navbar() {
+function Navbar({token, wallet}) {
     const twitter = require("../../assets/images/Twitter.png");
     const discord = require("../../assets/images/Discord.png");
     const whitepaper = require("../../assets/images/Whitepaper.png");
@@ -19,12 +19,13 @@ function Navbar() {
                 <div className="items">
                     <NavLink id="whitepaper" to="/whitepaper"><img src={whitepaper} alt="Whitepaper"/></NavLink>
                 </div>
+            <div className="info">
+                <div id="token-image"></div>
+                <span>{token}</span>
             </div>
-            {/* <div id="token">
-                <strong>100</strong>
-            </div> */}
-            <div id="wallet">
-                <span>0x5b1A885</span>
+            <div className="info">
+                <span>{wallet}</span>
+            </div>
             </div>
         </nav>
     </>);

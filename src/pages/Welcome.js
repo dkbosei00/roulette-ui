@@ -8,13 +8,18 @@ function Welcome() {
   return (<>
   <div id="main">
     <div id="wrapper">
-    <Navbar/>
+    <Navbar
+    token= "100"
+    wallet= "0x5b1A885"
+    />
     <Card
     name= "COME ON IN, User"
-    message= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at sapien porttitor, lacinia leo vel, iaculis ipsum. Curabitur ligula justo, pretium nec mi aliquet, suscipit placerat elit. Curabitur ac neque id elit lobortis efficitur. Donec auctor justo leo, eget ullamcorper ex placerat a. Suspendisse lacus leo, vulputate eu viverra vulputate, pulvinar vitae ipsum."
+    message= "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec."
     cornerText="Demo"
     />
     <PepeBackground/>
+    <div className="bkg" id="top"></div>
+    <div className="bkg" id="bottom"></div>
     </div>
     
   </div>
