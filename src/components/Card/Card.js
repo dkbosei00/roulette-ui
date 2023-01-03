@@ -10,7 +10,13 @@ function Card({name, message, cornerText}) {
     <button className="backward">{"<"}</button>
     <button className="forward">{">"}</button>
       <a href="/#">{cornerText}</a>  
-    <button id="playButton">Play Now</button>
+    <button id="playButton">
+      <span className="playFont">PLAY</span>
+      <span className="nowFont">now</span>
+    </button>
+    <svg className="shadow">
+      <ellipse cx="250" cy="100" rx="40" ry="5"/>
+    </svg>
   </div>
     
   )

@@ -13,7 +13,7 @@ function Welcome() {
     wallet= "0x5b1A885"
     />
     <Card
-    name= "COME ON IN, User"
+    name= "COME ON IN, DEGEN"
     message= "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec."
     cornerText="Demo"
     />

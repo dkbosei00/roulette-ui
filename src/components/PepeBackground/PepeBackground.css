@@ -1,6 +1,6 @@
 #main-pepebackground{
     position: absolute;
-    z-index: 1;
+    z-index: 100;
     bottom: 0%;
 }
 
@@ -23,7 +23,7 @@
     width: 80px;
     bottom: 10px;
     left: 120px;
-    background-image: url(../../assets/images/PEPE\ HAND.png);
+    background-image: url(../../assets/images/PEPE_GAME_HAND_COINS.svg);
 }
 
 #pepe-coin{
@@ -35,10 +35,10 @@
 }
 
 #logo{
-    height: 300px;
-    width: 500px;
-    bottom: 350px;
-    left: 420px;
+    height: 270px;
+    width: 450px;
+    bottom: 380px;
+    left: 450px;
     background-image: url(../../assets/images/Logo\ free\ 1.png);
     z-index: -1;
 }
