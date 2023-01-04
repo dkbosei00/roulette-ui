@@ -1,0 +1,136 @@
+*{    
+    font-family: 'Barlow';
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josh Handwriting';
+    src: url(../../assets/fonts/Josh\ Handwriting.ttf);
+}
+
+@font-face {
+    font-family: 'SecularOne';
+    src: url(../../assets/fonts/SecularOne-Regular.ttf);
+}
+
+#card-main{
+    position: absolute;
+    left: 30.83%;
+    right: 30.83%;
+    top: 33.07%;
+    bottom: 20.05%;
+    background: #09031D;
+    border-radius: 10px;
+    filter: none;
+    z-index: 100;
+    backdrop-filter: blur(.5px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 21px #18ADFA;
+}
+
+h1{
+    background: linear-gradient(90deg, #48B9F3 0%, #8A40B8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 110%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+    padding: 0 50px;
+    color: #E0DDFF;
+}
+
+a{
+    position: absolute;
+    height: 18.91px;
+    right: 110px;
+    bottom: 3px;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 110%;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    text-decoration:none;
+    text-align: center;
+
+
+    color: #AA68FF;
+}
+
+button{
+    box-sizing: border-box;
+    border-color: rgba(9, 3, 29, 0.8);
+    border-radius: 50%;
+    background: rgba(9, 3, 29, 0.8);
+    background: linear-gradient(180deg, #7A2DAA 0%, #090731 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 21px #18ADFA;
+    font-size: medium;
+}
+
+.backward{
+    position: absolute;
+    bottom: 22px;
+    left: 85px;
+    border: none;
+    background: linear-gradient(139.46deg, #18ADFA 9.3%, #B916BA 85.4%);
+
+}
+
+.forward{
+    position: absolute;
+    left: 115px;
+    bottom: 22px;
+    border: none;
+    background: linear-gradient(139.46deg, #18ADFA 9.3%, #B916BA 85.4%);
+}
+
+#playButton{
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+    border-radius: 50%;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+}
+
+#counter{
+    position: absolute;
+    left: 8%;
+    top: 86.5%;
+
+}
+
+.playFont{
+    font-family: 'SecularOne';
+    position: absolute;
+    text-align: center;
+    font-size: larger;
+    top: 30%;
+    left: 10%;
+
+}
+
+.nowFont{
+    font-family: 'Josh Handwriting';
+    display: inline-block;
+    transform: rotate(-10deg);
+    font-size: small;
+}
+
+.shadow{
+    position: absolute;
+    bottom: -105px;
+    right: 10px;
+    filter: brightness(0) saturate(100%) blur(8px);
+}

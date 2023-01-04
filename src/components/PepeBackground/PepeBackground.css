@@ -1,0 +1,70 @@
+#main-pepebackground{
+    position: absolute;
+    z-index: 100;
+    bottom: 0%;
+}
+
+.background-image{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#pepe-body{
+    height: 200px;
+    width: 200px;
+    bottom: .5px;
+    background-image: url(../../assets/images/PEPE_GAME_BODY.png);
+}
+
+#pepe-hand{
+    height: 80px;
+    width: 80px;
+    bottom: 10px;
+    left: 120px;
+    background-image: url(../../assets/images/PEPE_GAME_HAND_COINS.svg);
+}
+
+#pepe-coin{
+    height: 100px;
+    width: 100px;
+    left: 130px;
+    bottom: 50px;
+    background-image: url(../../assets/images/Coin\ 3D.svg);
+}
+
+#logo{
+    height: 270px;
+    width: 450px;
+    bottom: 380px;
+    left: 450px;
+    background-image: url(../../assets/images/Logo\ free\ 1.png);
+    z-index: -1;
+}
+
+#stars{
+    background-image: url(../../assets/images/Blink\ stars.png);
+    bottom: 305px;
+    left: 50px;
+    height: 300px;
+    width: 1300px;   
+}
+
+#top-sparkle{
+    background-image: url(../../assets/images/Logo-Sparkle-Top.svg);
+    height: 400px;
+    width: 400px;
+    bottom: 225px;
+    left: -50px;
+    filter: blur(4px);
+}
+
+#bottom-sparkle{
+    background-image: url(../../assets/images/Logo-Sparkle-Down.svg);
+    height: 400px;
+    width: 400px;
+    bottom: 5px;
+    left: 950px;
+    filter: blur(4px);
+}

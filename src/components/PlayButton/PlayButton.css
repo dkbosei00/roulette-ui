@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Josh Handwriting';
+    src: url(../../assets/fonts/Josh\ Handwriting.ttf);
+}
+
+@font-face {
+    font-family: 'SecularOne';
+    src: url(../../assets/fonts/SecularOne-Regular.ttf);
+}
+
+button{
+    box-sizing: border-box;
+    border-color: rgba(9, 3, 29, 0.8);
+    border-radius: 50%;
+    background: rgba(9, 3, 29, 0.8);
+    background: linear-gradient(180deg, #7A2DAA 0%, #090731 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 21px #18ADFA;
+    font-size: medium;
+}
+
+#playbutton-main{
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+}
+
+
+.playFont{
+    font-family: 'SecularOne';
+    position: absolute;
+    text-align: center;
+    font-size: larger;
+    top: 30%;
+    left: 10%;
+
+}
+
+.nowFont{
+    font-family: 'Josh Handwriting';
+    display: inline-block;
+    transform: rotate(-10deg);
+    font-size: small;
+}
